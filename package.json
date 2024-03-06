@@ -1,5 +1,5 @@
 {
-  "name": "my-library",
+  "name": "my-library-app",
   "version": "0.0.1",
   "description": "My Math App",
   "author": "Angel J. Puc Yamá",
@@ -23,6 +23,7 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@angelpuc08/my-library": "^1.0.1",
     "@nestjs/common": "^10.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",

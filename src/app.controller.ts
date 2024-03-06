@@ -1,7 +1,7 @@
 import { Controller, Get, Query } from '@nestjs/common';
 import { AppService } from './app.service';
-import { MyLibraryService } from '../libs/my-library/src';
 import { SumDTO } from './dtos/sum.dto';
+import { MyLibraryService } from '@angelpuc08/my-library';
 
 @Controller()
 export class AppController {
