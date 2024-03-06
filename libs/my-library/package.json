@@ -1,0 +1,21 @@
+{
+  "name": "@angelpuc08/my-library",
+  "version": "1.0.0",
+  "description": "Library to get math operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nestjs", "hello", "learn-nestjs", "math"],
+  "author": {
+  "name": "Angel Javier Puc Yamá",
+  "email": "angelpuc08@gmail.com",
+  "url": "https://www.linkedin.com/in/ajpy08/"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "class-transformer": "^0.5.1"
+  }
+}
