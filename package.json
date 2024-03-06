@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "My Math App",
   "author": "Angel J. Puc Yamá",
-  "private": true,
   "license": "MIT",
   "scripts": {
     "build": "nest build",
@@ -76,7 +75,7 @@
       "<rootDir>/libs/"
     ],
     "moduleNameMapper": {
-      "^@ajpy08/my-library(|/.*)$": "<rootDir>/libs/my-library/src/$1"
+      "^@app/my-library(|/.*)$": "<rootDir>/libs/my-library/src/$1"
     }
   }
 }

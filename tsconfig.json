@@ -18,10 +18,10 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@ajpy08/my-library": [
+      "@app/my-library": [
         "libs/my-library/src"
       ],
-      "@ajpy08/my-library/*": [
+      "@app/my-library/*": [
         "libs/my-library/src/*"
       ]
     }

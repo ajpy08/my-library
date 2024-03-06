@@ -1,6 +1,6 @@
 {
   "name": "@angelpuc08/my-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to get math operations",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": {
   "name": "Angel Javier Puc Yamá",
   "email": "angelpuc08@gmail.com",
-  "url": "https://www.linkedin.com/in/ajpy08/"
+  "url": "https://www.linkedin.com/in/app/"
   },
   "license": "MIT",
   "peerDependencies": {

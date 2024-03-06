@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { MyLibraryModule } from '@ajpy08/my-library';
+import { MyLibraryModule } from '@app/my-library';
 
 @Module({
   imports: [MyLibraryModule],

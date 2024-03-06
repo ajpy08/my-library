@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { MyLibraryService } from '@ajpy08/my-library';
+import { MyLibraryService } from '@app/my-library';
 
 @Injectable()
 export class AppService {
