@@ -3,7 +3,9 @@ import { ResultDto } from './dtos/result.dto';
 
 @Injectable()
 export class MyLibraryService {
-  basic = () => console.log('Basic hello');
+  basic = (): string => {
+    return 'Hello World!';
+  };
 
   addition = (num1: number, num2: number): ResultDto => {
     const result = num1 + num2;

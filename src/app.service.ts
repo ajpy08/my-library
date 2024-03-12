@@ -1,11 +1,11 @@
 import { Injectable } from '@nestjs/common';
-import { MyLibraryService } from '@angelpuc08/my-library';
+import { MyLibraryService } from '@app/my-library';
 
 @Injectable()
 export class AppService {
   constructor(private readonly myLibraryService: MyLibraryService) {}
   getHello(): string {
-    return 'Hello World!';
+    return this.myLibraryService.basic();
   }
 
   getAddition(num1: number, num2: number) {
