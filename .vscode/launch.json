@@ -5,7 +5,7 @@
           "type": "node-terminal",
           "request": "launch",
           "name": "Dev Debug",
-          "command": "npm start"
+          "command": "npm run start:dev"
       },
   ]
 }

@@ -35,4 +35,8 @@ export class MyLibraryService {
 
     return { result };
   };
+
+  hello = () => {
+    return 'Hello World!';
+  };
 }
